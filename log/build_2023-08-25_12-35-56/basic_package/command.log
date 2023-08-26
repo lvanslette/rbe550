@@ -1,0 +1,6 @@
+Invoking command in '/home/lucasvanslette/rbe550/build/basic_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lucasvanslette/rbe550/src/basic_package -DCMAKE_INSTALL_PREFIX=/home/lucasvanslette/rbe550/install/basic_package
+Invoked command in '/home/lucasvanslette/rbe550/build/basic_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lucasvanslette/rbe550/src/basic_package -DCMAKE_INSTALL_PREFIX=/home/lucasvanslette/rbe550/install/basic_package
+Invoking command in '/home/lucasvanslette/rbe550/build/basic_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucasvanslette/rbe550/build/basic_package -- -j4 -l4
+Invoked command in '/home/lucasvanslette/rbe550/build/basic_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucasvanslette/rbe550/build/basic_package -- -j4 -l4
+Invoking command in '/home/lucasvanslette/rbe550/build/basic_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucasvanslette/rbe550/build/basic_package
+Invoked command in '/home/lucasvanslette/rbe550/build/basic_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucasvanslette/rbe550/build/basic_package

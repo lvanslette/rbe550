@@ -1,0 +1,17 @@
+/home/lucasvanslette/rbe550/install/basic_package/lib/basic_package/talker
+/home/lucasvanslette/rbe550/install/basic_package/lib/basic_package/listener
+/home/lucasvanslette/rbe550/install/basic_package/share/ament_index/resource_index/package_run_dependencies/basic_package
+/home/lucasvanslette/rbe550/install/basic_package/share/ament_index/resource_index/parent_prefix_path/basic_package
+/home/lucasvanslette/rbe550/install/basic_package/share/basic_package/environment/ament_prefix_path.sh
+/home/lucasvanslette/rbe550/install/basic_package/share/basic_package/environment/ament_prefix_path.dsv
+/home/lucasvanslette/rbe550/install/basic_package/share/basic_package/environment/path.sh
+/home/lucasvanslette/rbe550/install/basic_package/share/basic_package/environment/path.dsv
+/home/lucasvanslette/rbe550/install/basic_package/share/basic_package/local_setup.bash
+/home/lucasvanslette/rbe550/install/basic_package/share/basic_package/local_setup.sh
+/home/lucasvanslette/rbe550/install/basic_package/share/basic_package/local_setup.zsh
+/home/lucasvanslette/rbe550/install/basic_package/share/basic_package/local_setup.dsv
+/home/lucasvanslette/rbe550/install/basic_package/share/basic_package/package.dsv
+/home/lucasvanslette/rbe550/install/basic_package/share/ament_index/resource_index/packages/basic_package
+/home/lucasvanslette/rbe550/install/basic_package/share/basic_package/cmake/basic_packageConfig.cmake
+/home/lucasvanslette/rbe550/install/basic_package/share/basic_package/cmake/basic_packageConfig-version.cmake
+/home/lucasvanslette/rbe550/install/basic_package/share/basic_package/package.xml

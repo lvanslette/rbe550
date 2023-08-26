@@ -1,0 +1,156 @@
+[0.000000] (-) TimerEvent: {}
+[0.000142] (basic_package) JobQueued: {'identifier': 'basic_package', 'dependencies': OrderedDict()}
+[0.000444] (basic_package) JobStarted: {'identifier': 'basic_package'}
+[0.010313] (basic_package) JobProgress: {'identifier': 'basic_package', 'progress': 'cmake'}
+[0.010927] (basic_package) JobProgress: {'identifier': 'basic_package', 'progress': 'build'}
+[0.011691] (basic_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lucasvanslette/rbe550/build/basic_package', '--', '-j4', '-l4'], 'cwd': '/home/lucasvanslette/rbe550/build/basic_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lucasvanslette'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lucasvanslette/Tutorials/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/lucasvanslette'), ('OLDPWD', '/home/lucasvanslette/rbe550/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '54943'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lucasvanslette/Tutorials/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lucasvanslette'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lucasvanslette'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/lucasvanslette/ghidra/bin:/home/lucasvanslette/Downloads/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lucasvanslette-ThinkPad-T470s:@/tmp/.ICE-unix/1001,unix/lucasvanslette-ThinkPad-T470s:/tmp/.ICE-unix/1001'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0a94a50e_55e1_4415_9dd3_f9124465261b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4DQCA2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.256'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lucasvanslette/Tutorials/install/turtlesim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lucasvanslette/rbe550/build/basic_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lucasvanslette/Tutorials/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lucasvanslette/Tutorials/install/turtlesim:/opt/ros/humble')]), 'shell': False}
+[0.037917] (basic_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099424] (-) TimerEvent: {}
+[0.178983] (basic_package) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199535] (-) TimerEvent: {}
+[0.205932] (basic_package) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.208310] (basic_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.213963] (basic_package) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.224763] (basic_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.241198] (basic_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299665] (-) TimerEvent: {}
+[0.300274] (basic_package) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.301611] (basic_package) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.399801] (-) TimerEvent: {}
+[0.424823] (basic_package) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.499925] (-) TimerEvent: {}
+[0.600221] (-) TimerEvent: {}
+[0.610518] (basic_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.674995] (basic_package) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.675216] (basic_package) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.675331] (basic_package) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.675669] (basic_package) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.676552] (basic_package) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.676672] (basic_package) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.676820] (basic_package) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.677486] (basic_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.688414] (basic_package) StdoutLine: {'line': b'-- Generating done\n'}
+[0.689933] (basic_package) StdoutLine: {'line': b'-- Build files have been written to: /home/lucasvanslette/rbe550/build/basic_package\n'}
+[0.700320] (-) TimerEvent: {}
+[0.714063] (basic_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[0.723141] (basic_package) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[0.735401] (basic_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.800429] (-) TimerEvent: {}
+[0.900876] (-) TimerEvent: {}
+[1.001304] (-) TimerEvent: {}
+[1.101797] (-) TimerEvent: {}
+[1.202159] (-) TimerEvent: {}
+[1.302546] (-) TimerEvent: {}
+[1.402953] (-) TimerEvent: {}
+[1.503335] (-) TimerEvent: {}
+[1.603723] (-) TimerEvent: {}
+[1.704088] (-) TimerEvent: {}
+[1.804532] (-) TimerEvent: {}
+[1.904943] (-) TimerEvent: {}
+[2.005647] (-) TimerEvent: {}
+[2.106159] (-) TimerEvent: {}
+[2.206670] (-) TimerEvent: {}
+[2.307228] (-) TimerEvent: {}
+[2.407735] (-) TimerEvent: {}
+[2.508056] (-) TimerEvent: {}
+[2.608372] (-) TimerEvent: {}
+[2.708800] (-) TimerEvent: {}
+[2.809121] (-) TimerEvent: {}
+[2.909439] (-) TimerEvent: {}
+[3.009766] (-) TimerEvent: {}
+[3.110089] (-) TimerEvent: {}
+[3.210412] (-) TimerEvent: {}
+[3.310949] (-) TimerEvent: {}
+[3.411318] (-) TimerEvent: {}
+[3.511631] (-) TimerEvent: {}
+[3.611954] (-) TimerEvent: {}
+[3.712279] (-) TimerEvent: {}
+[3.812962] (-) TimerEvent: {}
+[3.915327] (-) TimerEvent: {}
+[4.015647] (-) TimerEvent: {}
+[4.115964] (-) TimerEvent: {}
+[4.216278] (-) TimerEvent: {}
+[4.316587] (-) TimerEvent: {}
+[4.416999] (-) TimerEvent: {}
+[4.517328] (-) TimerEvent: {}
+[4.617650] (-) TimerEvent: {}
+[4.717967] (-) TimerEvent: {}
+[4.818292] (-) TimerEvent: {}
+[4.918830] (-) TimerEvent: {}
+[5.019299] (-) TimerEvent: {}
+[5.119600] (-) TimerEvent: {}
+[5.219935] (-) TimerEvent: {}
+[5.320279] (-) TimerEvent: {}
+[5.327041] (basic_package) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[5.420393] (-) TimerEvent: {}
+[5.520933] (-) TimerEvent: {}
+[5.590731] (basic_package) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[5.621073] (-) TimerEvent: {}
+[5.721478] (-) TimerEvent: {}
+[5.821802] (-) TimerEvent: {}
+[5.922143] (-) TimerEvent: {}
+[6.022435] (-) TimerEvent: {}
+[6.122738] (-) TimerEvent: {}
+[6.223043] (-) TimerEvent: {}
+[6.323362] (-) TimerEvent: {}
+[6.423675] (-) TimerEvent: {}
+[6.523988] (-) TimerEvent: {}
+[6.624293] (-) TimerEvent: {}
+[6.724586] (-) TimerEvent: {}
+[6.824875] (-) TimerEvent: {}
+[6.925186] (-) TimerEvent: {}
+[7.025498] (-) TimerEvent: {}
+[7.125819] (-) TimerEvent: {}
+[7.226131] (-) TimerEvent: {}
+[7.326443] (-) TimerEvent: {}
+[7.426753] (-) TimerEvent: {}
+[7.527069] (-) TimerEvent: {}
+[7.627359] (-) TimerEvent: {}
+[7.727667] (-) TimerEvent: {}
+[7.827973] (-) TimerEvent: {}
+[7.928244] (-) TimerEvent: {}
+[8.028562] (-) TimerEvent: {}
+[8.128876] (-) TimerEvent: {}
+[8.229186] (-) TimerEvent: {}
+[8.329493] (-) TimerEvent: {}
+[8.429803] (-) TimerEvent: {}
+[8.530113] (-) TimerEvent: {}
+[8.630402] (-) TimerEvent: {}
+[8.730694] (-) TimerEvent: {}
+[8.831045] (-) TimerEvent: {}
+[8.931424] (-) TimerEvent: {}
+[9.031749] (-) TimerEvent: {}
+[9.132099] (-) TimerEvent: {}
+[9.140131] (basic_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[9.232239] (-) TimerEvent: {}
+[9.332562] (-) TimerEvent: {}
+[9.432862] (-) TimerEvent: {}
+[9.520732] (basic_package) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[9.531133] (basic_package) CommandEnded: {'returncode': 0}
+[9.532937] (-) TimerEvent: {}
+[9.557171] (basic_package) JobProgress: {'identifier': 'basic_package', 'progress': 'install'}
+[9.566549] (basic_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lucasvanslette/rbe550/build/basic_package'], 'cwd': '/home/lucasvanslette/rbe550/build/basic_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lucasvanslette'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lucasvanslette/Tutorials/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/lucasvanslette'), ('OLDPWD', '/home/lucasvanslette/rbe550/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '54943'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lucasvanslette/Tutorials/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lucasvanslette'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lucasvanslette'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/lucasvanslette/ghidra/bin:/home/lucasvanslette/Downloads/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lucasvanslette-ThinkPad-T470s:@/tmp/.ICE-unix/1001,unix/lucasvanslette-ThinkPad-T470s:/tmp/.ICE-unix/1001'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0a94a50e_55e1_4415_9dd3_f9124465261b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4DQCA2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.256'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lucasvanslette/Tutorials/install/turtlesim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lucasvanslette/rbe550/build/basic_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lucasvanslette/Tutorials/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lucasvanslette/Tutorials/install/turtlesim:/opt/ros/humble')]), 'shell': False}
+[9.574098] (basic_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.574422] (basic_package) StdoutLine: {'line': b'-- Installing: /home/lucasvanslette/rbe550/install/basic_package/lib/basic_package/talker\n'}
+[9.576671] (basic_package) StdoutLine: {'line': b'-- Set runtime path of "/home/lucasvanslette/rbe550/install/basic_package/lib/basic_package/talker" to ""\n'}
+[9.576817] (basic_package) StdoutLine: {'line': b'-- Installing: /home/lucasvanslette/rbe550/install/basic_package/lib/basic_package/listener\n'}
+[9.583202] (basic_package) StdoutLine: {'line': b'-- Set runtime path of "/home/lucasvanslette/rbe550/install/basic_package/lib/basic_package/listener" to ""\n'}
+[9.583590] (basic_package) StdoutLine: {'line': b'-- Up-to-date: /home/lucasvanslette/rbe550/install/basic_package/share/ament_index/resource_index/package_run_dependencies/basic_package\n'}
+[9.583675] (basic_package) StdoutLine: {'line': b'-- Up-to-date: /home/lucasvanslette/rbe550/install/basic_package/share/ament_index/resource_index/parent_prefix_path/basic_package\n'}
+[9.583808] (basic_package) StdoutLine: {'line': b'-- Up-to-date: /home/lucasvanslette/rbe550/install/basic_package/share/basic_package/environment/ament_prefix_path.sh\n'}
+[9.583871] (basic_package) StdoutLine: {'line': b'-- Installing: /home/lucasvanslette/rbe550/install/basic_package/share/basic_package/environment/ament_prefix_path.dsv\n'}
+[9.583961] (basic_package) StdoutLine: {'line': b'-- Up-to-date: /home/lucasvanslette/rbe550/install/basic_package/share/basic_package/environment/path.sh\n'}
+[9.584115] (basic_package) StdoutLine: {'line': b'-- Installing: /home/lucasvanslette/rbe550/install/basic_package/share/basic_package/environment/path.dsv\n'}
+[9.584243] (basic_package) StdoutLine: {'line': b'-- Up-to-date: /home/lucasvanslette/rbe550/install/basic_package/share/basic_package/local_setup.bash\n'}
+[9.584366] (basic_package) StdoutLine: {'line': b'-- Up-to-date: /home/lucasvanslette/rbe550/install/basic_package/share/basic_package/local_setup.sh\n'}
+[9.584474] (basic_package) StdoutLine: {'line': b'-- Up-to-date: /home/lucasvanslette/rbe550/install/basic_package/share/basic_package/local_setup.zsh\n'}
+[9.584644] (basic_package) StdoutLine: {'line': b'-- Installing: /home/lucasvanslette/rbe550/install/basic_package/share/basic_package/local_setup.dsv\n'}
+[9.584769] (basic_package) StdoutLine: {'line': b'-- Installing: /home/lucasvanslette/rbe550/install/basic_package/share/basic_package/package.dsv\n'}
+[9.584873] (basic_package) StdoutLine: {'line': b'-- Up-to-date: /home/lucasvanslette/rbe550/install/basic_package/share/ament_index/resource_index/packages/basic_package\n'}
+[9.584971] (basic_package) StdoutLine: {'line': b'-- Up-to-date: /home/lucasvanslette/rbe550/install/basic_package/share/basic_package/cmake/basic_packageConfig.cmake\n'}
+[9.585068] (basic_package) StdoutLine: {'line': b'-- Up-to-date: /home/lucasvanslette/rbe550/install/basic_package/share/basic_package/cmake/basic_packageConfig-version.cmake\n'}
+[9.585166] (basic_package) StdoutLine: {'line': b'-- Up-to-date: /home/lucasvanslette/rbe550/install/basic_package/share/basic_package/package.xml\n'}
+[9.586828] (basic_package) CommandEnded: {'returncode': 0}
+[9.633049] (-) TimerEvent: {}
+[9.639908] (basic_package) JobEnded: {'identifier': 'basic_package', 'rc': 0}
+[9.640671] (-) EventReactorShutdown: {}

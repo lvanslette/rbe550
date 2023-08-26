@@ -1,0 +1,29 @@
+[0.014s] Invoking command in '/home/lucasvanslette/rbe550/build/basic_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucasvanslette/rbe550/build/basic_package -- -j4 -l4
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.076s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.078s] [ 75%] Built target listener
+[4.075s] [100%] [32m[1mLinking CXX executable talker[0m
+[4.286s] [100%] Built target talker
+[4.297s] Invoked command in '/home/lucasvanslette/rbe550/build/basic_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucasvanslette/rbe550/build/basic_package -- -j4 -l4
+[4.331s] Invoking command in '/home/lucasvanslette/rbe550/build/basic_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucasvanslette/rbe550/build/basic_package
+[4.338s] -- Install configuration: ""
+[4.339s] -- Installing: /home/lucasvanslette/rbe550/install/basic_package/lib/basic_package/talker
+[4.341s] -- Set runtime path of "/home/lucasvanslette/rbe550/install/basic_package/lib/basic_package/talker" to ""
+[4.342s] -- Up-to-date: /home/lucasvanslette/rbe550/install/basic_package/lib/basic_package/listener
+[4.342s] -- Up-to-date: /home/lucasvanslette/rbe550/install/basic_package/share/ament_index/resource_index/package_run_dependencies/basic_package
+[4.342s] -- Up-to-date: /home/lucasvanslette/rbe550/install/basic_package/share/ament_index/resource_index/parent_prefix_path/basic_package
+[4.342s] -- Up-to-date: /home/lucasvanslette/rbe550/install/basic_package/share/basic_package/environment/ament_prefix_path.sh
+[4.342s] -- Up-to-date: /home/lucasvanslette/rbe550/install/basic_package/share/basic_package/environment/ament_prefix_path.dsv
+[4.343s] -- Up-to-date: /home/lucasvanslette/rbe550/install/basic_package/share/basic_package/environment/path.sh
+[4.343s] -- Up-to-date: /home/lucasvanslette/rbe550/install/basic_package/share/basic_package/environment/path.dsv
+[4.343s] -- Up-to-date: /home/lucasvanslette/rbe550/install/basic_package/share/basic_package/local_setup.bash
+[4.343s] -- Up-to-date: /home/lucasvanslette/rbe550/install/basic_package/share/basic_package/local_setup.sh
+[4.343s] -- Up-to-date: /home/lucasvanslette/rbe550/install/basic_package/share/basic_package/local_setup.zsh
+[4.343s] -- Up-to-date: /home/lucasvanslette/rbe550/install/basic_package/share/basic_package/local_setup.dsv
+[4.343s] -- Installing: /home/lucasvanslette/rbe550/install/basic_package/share/basic_package/package.dsv
+[4.343s] -- Up-to-date: /home/lucasvanslette/rbe550/install/basic_package/share/ament_index/resource_index/packages/basic_package
+[4.344s] -- Up-to-date: /home/lucasvanslette/rbe550/install/basic_package/share/basic_package/cmake/basic_packageConfig.cmake
+[4.344s] -- Up-to-date: /home/lucasvanslette/rbe550/install/basic_package/share/basic_package/cmake/basic_packageConfig-version.cmake
+[4.344s] -- Up-to-date: /home/lucasvanslette/rbe550/install/basic_package/share/basic_package/package.xml
+[4.345s] Invoked command in '/home/lucasvanslette/rbe550/build/basic_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucasvanslette/rbe550/build/basic_package
